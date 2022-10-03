@@ -40,6 +40,7 @@ public class EmployerController {
             return "employers/add";
         }
         employerRepository.save(newEmployer);
+
         return "employers/view";
     }
 
